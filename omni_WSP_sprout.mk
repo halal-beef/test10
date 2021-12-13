@@ -23,14 +23,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
-
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Nokia
-PRODUCT_NAME := WSP_sprout
+PRODUCT_DEVICE := WSP_sprout
+PRODUCT_NAME := omni_WSP_sprout
 PRODUCT_BRAND := Nokia
-PRODUCT_MODEL := 2.2
-PRODUCT_MANUFACTURER := Nokia
+PRODUCT_MODEL := Nokia 2.2
+PRODUCT_MANUFACTURER := hmd
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
