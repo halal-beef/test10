@@ -27,7 +27,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := Nokia
-PRODUCT_NAME := Nokia 2.2
+PRODUCT_NAME := WSP_sprout
 PRODUCT_BRAND := Nokia
 PRODUCT_MODEL := 2.2
 PRODUCT_MANUFACTURER := Nokia

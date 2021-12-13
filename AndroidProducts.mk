@@ -18,3 +18,5 @@ PRODUCT_MAKEFILES := \
      $(LOCAL_DIR)/omni_WSP_sprout.mk
 
 COMMON_LUNCH_CHOICES := omni_WSP_sprout-eng
+COMMON_LUNCH_CHOICES := omni_WSP_sprout-user
+COMMON_LUNCH_CHOICES := omni_WSP_sprout-userdebug
